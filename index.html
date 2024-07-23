@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index-style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Git y Comandos Básicos de Git</title>
+</head>
+<body>
+    <div class="header">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/640px-Octicons-mark-github.svg.png" alt="Imagen de Git" class="img-header">
+        <h1>Introducción a Git</h1>
+    </div>
+    <div class="container content-section">
+        <div class="card">
+            <div class="card-header">
+                ¿Qué es Git?
+            </div>
+            <div class="card-body">
+                <p>Git es un sistema de control de versiones distribuido que permite a los desarrolladores de software realizar un seguimiento de los cambios en el código fuente durante el desarrollo de software. Fue creado por Linus Torvalds en 2005.</p>
+                <p>Con Git, los desarrolladores pueden colaborar en un proyecto, ver el historial de cambios, revertir a versiones anteriores y mucho más. Git es esencial para el desarrollo de software moderno y es ampliamente utilizado en la industria.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container content-section">
+        <div class="card">
+            <div class="card-header">
+                Comandos de Git
+            </div>
+            <div class="card-body">
+                <h5>1. git init</h5>
+                <p>Inicializa un nuevo repositorio Git.</p>
+                <pre><code>git init</code></pre>
+                <h5>2. git clone</h5>
+                <p>Clona un repositorio existente.</p>
+                <pre><code>git clone https://github.com/usuario/repo.git</code></pre>
+                <h5>3. git status</h5>
+                <p>Muestra el estado de los cambios en el repositorio.</p>
+                <pre><code>git status</code></pre>
+                <h5>4. git add</h5>
+                <p>Añade archivos al área de preparación.</p>
+                <pre><code>git add archivo.txt</code></pre>
+                <h5>5. git commit</h5>
+                <p>Guarda los cambios en el repositorio.</p>
+                <pre><code>git commit -m "Mensaje del commit"</code></pre>
+                <h5>6. git push</h5>
+                <p>Envía los cambios al repositorio remoto.</p>
+                <pre><code>git push origin main</code></pre>
+                <h5>7. git pull</h5>
+                <p>Obtiene y fusiona cambios del repositorio remoto.</p>
+                <pre><code>git pull origin main</code></pre>
+                <h5>8. git branch</h5>
+                <p>Muestra las ramas existentes.</p>
+                <pre><code>git branch</code></pre>
+                <h5>9. git checkout</h5>
+                <p>Cambia a otra rama.</p>
+                <pre><code>git checkout nombre_rama</code></pre>
+                <h5>10. git merge</h5>
+                <p>Fusiona otra rama en la rama actual.</p>
+                <pre><code>git merge nombre_rama</code></pre>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>© 2024 Tutorial de Git Jyax</p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
